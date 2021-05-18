@@ -39,7 +39,7 @@ CUDA_VISIBLE_DEVICES=$gpu \
         --seq_shift 1 \
         --gen_hop $seg_len \
         --fold_list $fold_idx \
-        --type_list gudianwu chaoxianzu \
+        --type_list gudianwu \
         --model_path ${model_path%.*} \
         --max_max_epoch 15 \
         --save_data_epoch 5 \

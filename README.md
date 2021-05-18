@@ -13,7 +13,7 @@ Download this repo on your computer and create a new enviroment using commands a
  conda create -n music_dance python==3.5
  pip install -r requirement.txt
  ```
- Put processed training data (fold_json, motion_feature and music_feature) under "./dataset" and run the following scripts:
+ Download the processed training data ([fold_json](https://drive.google.com/file/d/18YhFlqkwU6akfjSBgcmywJu_BtfjmAZz/view?usp=sharing), [motion_feature](https://drive.google.com/file/d/18Hk5jEW8DV_AXzWZcvdLkUvlTiVdZ0Sp/view?usp=sharing) and [music_feature](https://drive.google.com/file/d/1VMt_fhG2livx1keh9o9Vu6zwwZPgB3ZZ/view?usp=sharing)), extract and put them under "./dataset", and run the following scripts:
  ```
  bash pretrain.sh
  bash finetune.sh
